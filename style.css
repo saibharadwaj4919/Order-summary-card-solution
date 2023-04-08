@@ -1,0 +1,80 @@
+body{
+    background-color: #D6E1FF;
+    min-height: 105vh;
+    display: grid;
+    place-items: center;
+    color: grey;
+}
+.container{
+   
+    place-items: center;
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+   
+}
+.content{
+    padding: 15px;
+    
+}
+.person{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.annual{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 50px;
+    background-color: rgb(244, 248, 252);
+    margin: 20px auto;
+    padding: 13px;
+    border-radius: 10px;
+}
+.icon{
+    float: left;
+    padding: 1px;
+}
+.price{
+    padding: 7px;
+}
+.annual a{
+
+    /* margin-left: 5%; */
+    font-size: 15px;
+
+}
+button{
+    display: block;
+    margin: 0 auto ;
+    margin-bottom: 10px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    box-shadow: black;
+}
+h4{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: black;
+
+}
+h3{
+    color: black;
+    font-family:sans-serif;
+}
+p{
+    padding: 0 50px 0 50px;
+}
+.annual a:visited{
+    color: blue;
+}
+.annual a:hover{
+    color: blue;
+}
